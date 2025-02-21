@@ -8,8 +8,7 @@ public class Insert {
     }
     private Node insert_helper(Node root,int data){
         if(root==null){
-            root=new Node(data);
-            return root;
+            return new Node(data);
         }
         if(data<root.data){
          root.left=insert_helper(root.left, data);
