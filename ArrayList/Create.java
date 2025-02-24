@@ -38,9 +38,11 @@ public class Create {
     //   System.out.println(list);
 
       //merging two nested loops 
+      Collections.sort(list,Collections.reverseOrder());
       ArrayList<ArrayList<String>> nest=new ArrayList<>();
       nest.add(list2);
       nest.add(list);
       System.out.println(nest);
+
     }
 }
